@@ -1,0 +1,17 @@
+{
+  "name": "appointlix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts":{
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run server",
+    "admin": "cd admin && npm run dev",
+    "start-all": "concurrently \"npm run frontend\" \"npm run backend\" \"npm run admin\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
